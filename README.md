@@ -1,6 +1,5 @@
 # ag infinite scrolling articlelists for OXID eShop 4.7
-Beim Erreichen des Seitenendes werden die Artikellisten auf den Kategorien- und Herstellerseiten und der Suche automatisch nachgeladen.  
-[Demo](http://oxidtemplate.aggrosoft.de/Alles/) Demo
+Beim Erreichen des Seitenendes werden die Artikellisten auf den Kategorien- und Herstellerseiten und der Suche automatisch nachgeladen => [Demo](http://oxidtemplate.aggrosoft.de/Alles/)
 
 
 ## INSTALLATION
@@ -9,7 +8,8 @@ Den Inhalt von  "copy_this" in den Hauptordner des Shops kopieren
 </pre>
 
 
-##LICENSE AGREEMEN
+##LIZENZVEREINBARUNG
+#The MIT License (MIT)
 Copyright (c) 2013 Stefan & Alexander Kludt, Marat Bedoev  
   
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),  
