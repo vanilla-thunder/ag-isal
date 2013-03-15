@@ -4,7 +4,7 @@ Beim Erreichen des Seitenendes werden die Artikellisten auf den Kategorien- und 
   
 ## INSTALLATION
 Den Inhalt von  "copy_this" in den Hauptordner des Shops kopieren  
-(Beim Hochladen �ber FTP den �bertragungsmodus auf "bin�r" umstellen!)
+(Beim Hochladen über FTP den Übertragungsmodus auf "binär" umstellen!)
 </pre>
   
   
