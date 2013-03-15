@@ -29,6 +29,6 @@
         });
     })
     [{/capture}]
-    [{oxscript include=$oViewConf->getModuleUrl('ag_dynartlist','out/src/jquery.infinitescroll.min.js') }]
+    [{oxscript include=$oViewConf->getModuleUrl('ag-isal','out/src/jquery.infinitescroll.min.js') }]
     [{oxscript add=$infiniteScroll}]
 [{/if}]
