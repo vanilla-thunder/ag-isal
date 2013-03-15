@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2013 Stefan & Alexander Kludt, Marat Bedoev
+ * Copyright (c) 2013 Aggrosoft GbR & Marat Bedoev
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
  * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
@@ -29,7 +29,7 @@ $aModule = array(
         <tr><td colspan="2">',
     'thumbnail' => 'spinner.gif',
     'version' => '1.0.0 from 2013-03-15',
-    'author' => 'Stefan & Alexander Kludt, Marat Bedoev',
+    'author' => 'Aggrosoft GbR & Marat Bedoev',
     'url' => 'https://github.com/vanilla-thunder/ag-isal',
     'extend' => array(
         'oxviewconfig' => 'ag-isal/extend/oxviewconfig_isal'
