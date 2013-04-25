@@ -26,7 +26,53 @@
                     $('#infscr-loading').remove();
                 }
             }
-        });
+            },function(arr){
+    				alignScrolltopButton();
+		});
+
+        var scrollbutton = $('<a id="scrolltop" class="submitButton largeButton" style="position:fixed; bottom:30px; display:none;"><span class="asc">Nach oben</span></a>');
+		$('body').append(scrollbutton); 
+
+		$(window).scroll(function(e){
+			var scrollTop = $(window).scrollTop();
+			if(scrollTop > 800){
+				alignScrolltopButton();
+				scrollbutton.show();
+			}else{
+				scrollbutton.hide();
+			}
+		});
+
+		$(window).resize(function(e){
+			alignScrolltopButton();
+		})
+
+		scrollbutton.click(function(){
+			$(window).scrollTop(0);
+			return false;
+		});
+
+		alignScrolltopButton();
+
+		function alignScrolltopButton(){
+			var pos = $('#sidebar').offset();
+			var left = pos.left;
+			scrollbutton.css('left', left+'px');
+
+			var pos = $('#content').offset();
+			var maxTop = pos.top + $('#content').height();
+			var top = $(window).height() - 30 + $(window).scrollTop();
+			if(top > maxTop){
+				scrollbutton.css('position', 'absolute');
+				scrollbutton.css('bottom','');
+				scrollbutton.css('top', maxTop);
+			}else{
+				scrollbutton.css('position', 'fixed');
+				scrollbutton.css('bottom','30px');
+				scrollbutton.css('top', '');
+			}
+			
+		}
     })
     [{/capture}]
     [{oxscript include=$oViewConf->getModuleUrl('ag-isal','out/src/jquery.infinitescroll.min.js') }]
