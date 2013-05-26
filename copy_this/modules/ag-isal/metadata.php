@@ -18,7 +18,10 @@ $sMetadataVersion = '1.1';
 $aModule = array(
     'id' => 'ag-isal',
     'title' => 'Infinite Scrolling Articlelists',
-    'description' => 'Die Artikelliste wird beim Erreichen des Seitenendes nachgeladen =&gt; <strong><a href="http://oxidtemplate.aggrosoft.de/Alles/" target="_blank">DEMO</a></strong><br/>Funktioniert bei Kategorien, Herstellern und Produktsuche.',
+    'description' => array(
+        'de' =>'Die Artikelliste wird beim Erreichen des Seitenendes nachgeladen =&gt; <strong><a href="http://oxidtemplate.aggrosoft.de/Alles/" target="_blank">DEMO</a></strong><br/>Funktioniert bei Kategorien, Herstellern und Produktsuche.',
+        'en' =>'loads next articles by reaching the end of the page =&gt; <strong><a href="http://oxidtemplate.aggrosoft.de/Alles/" target="_blank">DEMO</a></strong><br/>Works with categories, manufacturer pages and product search.'
+    ),
     'thumbnail' => 'picture.jpg',
     'version' => '1.0.0 from 2013-03-15',
     'author' => 'Aggrosoft GbR & Marat Bedoev',
