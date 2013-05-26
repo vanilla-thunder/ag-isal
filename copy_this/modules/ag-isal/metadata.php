@@ -18,24 +18,14 @@ $sMetadataVersion = '1.1';
 $aModule = array(
     'id' => 'ag-isal',
     'title' => 'Infinite Scrolling Articlelists',
-    'description' => '</td>
-            <td rowspan="2" width="25" style="border-right: 1px solid #ddd;"></td>
-            <td rowspan="2"><img src="../modules/ag-isal/picture.jpg"/><style>.saveButton { color: white; font-size: 150%; width: 100%; padding: 10px 0; font-weight: bold;} #module_activate {background: green;} #module_deactivate {background: darkred;}</style>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td valign="top">Die Artikelliste wird beim Erreichen des Seitenendes nachgeladen =&gt; <strong><a href="http://oxidtemplate.aggrosoft.de/Alles/" target="_blank">DEMO</a></strong><br/>Funktioniert bei Kategorien, Herstellern und Produktsuche.<hr/></td>
-        </tr>
-        <tr><td colspan="2">',
-    'thumbnail' => 'spinner.gif',
+    'description' => 'Die Artikelliste wird beim Erreichen des Seitenendes nachgeladen =&gt; <strong><a href="http://oxidtemplate.aggrosoft.de/Alles/" target="_blank">DEMO</a></strong><br/>Funktioniert bei Kategorien, Herstellern und Produktsuche.',
+    'thumbnail' => 'picture.jpg',
     'version' => '1.0.0 from 2013-03-15',
     'author' => 'Aggrosoft GbR & Marat Bedoev',
     'url' => 'https://github.com/vanilla-thunder/ag-isal',
     'extend' => array(
-        'oxviewconfig' => 'ag-isal/extend/oxviewconfig_isal'
     ),
     'blocks' => array(
-        array('template' => 'layout/base.tpl', 'block' => 'base_js', 'file' => 'base_js.tpl')
+        array('template' => 'layout/base.tpl', 'block' => 'base_js', 'file' => '/views/blocks/base_js.tpl')
     ),
 );
