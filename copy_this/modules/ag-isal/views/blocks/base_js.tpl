@@ -10,6 +10,8 @@
             nextSelector : "div.pager a.next",
             // selector for the NEXT link (to page 2)
             itemSelector : productlistselector + " li.productData",
+            // so no loading happens if not needed
+            maxPage: [{$pages->NrOfPages}],
             // selector for all items you'll retrieve
             path: function(page){
             [{assign var=fp value='&amp;'|str_replace:'&':$pages->firstpage}]
